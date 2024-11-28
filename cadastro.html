@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tela de cadastro</title>
+  </head>
+  <body>
+    <h2>Nesta sessão queremos saber um pouco sobre você, poderia nos dizer:</h2>
+    <form action="/Cadastro.html" method="post">
+      <label for="Nome">Poderia me dizer seu nome completo?</label><br />
+      <input
+        type="text"
+        id="name"
+        name="nome"
+        placeholder="Digite seu nome aqui"
+      />
+
+      <p>
+        <label for="idade">Agora poderia me dizer sua idade?</label><br/>
+        <input
+          type="text"
+          id="name"
+          name="nome"
+          placeholder="Digite seu nome aqui"
+        /><br />
+        <label for="idade">De qual estado você é?</label><br/>
+        <input
+          type="text"
+          id="cidade"
+          name="cidade"
+          placeholder="Digite seu estado"
+        /><br>
+        <label for="idade">De qual cidade você é?</label><br/>
+        <input
+          type="text"
+          id="cidade"
+          name="cidade"
+          placeholder="Digite sua cidade"
+        /><br>
+      </p>
+
+      <p>
+        <label for=""
+          >Para que acesse o site poderia nos dizer seu e-mail?</label
+        ><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Insira seu Email"
+          required
+        /><br />
+      </p>
+      <p>
+        <label for="password">Agora para sua segurança informe sua Senha</label
+        ><br />
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Insira sua Senha"
+          required
+        /><br />
+
+        <label for="password">Confirme sua Senha</label><br />
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Confirme sua Senha"
+          required
+        /><br />
+      </p>
+      <button type="submit"><cadastrar-se>Cadastre-se</cadastrar-se></button>
+    </form>
+  </body>
+</html>
