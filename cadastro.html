@@ -1,49 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tela de cadastro</title>
+    <style>
+      /* Definindo o estilo para o body para centralizar o conteúdo */
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* altura total da tela */
+        margin: 0;
+        background-color: #dcdaf3;
+      }
+
+      /* Estilizando o formulário */
+      form {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+        width: 300px; /* largura do formulário */
+      }
+
+      h2 {
+        border-radius: 30px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+        font-family: arial, sans-serif;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      fieldset {
+        background-color: #6c63ff;
+        margin-bottom: 10px;
+        border-radius: 30px;
+        padding: 10px;
+      }
+
+      label {
+        font-weight: bold;
+      }
+
+      input {
+        text-align: center;
+        width: 100%;
+        padding: 8px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+
+      button {
+        width: 100%;
+        padding: 10px;
+        background-color: #6c63ff;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+
+      button:hover {
+        background-color: #5a5aad; /* Cor levemente alterada para o hover */
+      }
+    </style>
   </head>
   <body>
-    <h2>Nesta sessão queremos saber um pouco sobre você, poderia nos dizer:</h2>
-    <form action="/Cadastro.html" method="post">
-      <label for="Nome">Poderia me dizer seu nome completo?</label><br />
-      <input
-        type="text"
-        id="name"
-        name="nome"
-        placeholder="Digite seu nome aqui"
-      />
+    <div>
+      <h2><fieldset>sessão queremos saber um pouco sobre você,<br> poderia nos dizer:</fieldset></h2>
+      <form action="/Cadastro.html" method="post">
+        <label for="nome">Poderia me dizer seu nome completo?</label><br/>
+        <input
+          type="text"
+          id="nome"
+          name="nome"
+          placeholder="Digite seu nome aqui"
+        />
 
-      <p>
         <label for="idade">Agora poderia me dizer sua idade?</label><br/>
         <input
           type="text"
-          id="name"
-          name="nome"
-          placeholder="Digite seu nome aqui"
+          id="idade"
+          name="idade"
+          placeholder="Digite sua idade"
         /><br />
-        <label for="idade">De qual estado você é?</label><br/>
+        <label for="escolaridade">Qual sua escolaridade?</label>
+        <input type="text" id="escolaridade" name="escolaridade" placeholder="Digite aqui seu grau de escolaridade"><br>
+        <label for="estado">De qual estado você é?</label><br/>
         <input
           type="text"
-          id="cidade"
-          name="cidade"
+          id="estado"
+          name="estado"
           placeholder="Digite seu estado"
         /><br>
-        <label for="idade">De qual cidade você é?</label><br/>
+
+        <label for="cidade">De qual cidade você é?</label><br/>
         <input
           type="text"
           id="cidade"
           name="cidade"
           placeholder="Digite sua cidade"
         /><br>
-      </p>
 
-      <p>
-        <label for=""
-          >Para que acesse o site poderia nos dizer seu e-mail?</label
-        ><br />
+        <label for="email">Para que acesse o site poderia nos dizer seu e-mail?</label><br />
         <input
           type="email"
           id="email"
@@ -51,10 +114,8 @@
           placeholder="Insira seu Email"
           required
         /><br />
-      </p>
-      <p>
-        <label for="password">Agora para sua segurança informe sua Senha</label
-        ><br />
+
+        <label for="password">Agora para sua segurança informe sua Senha</label><br />
         <input
           type="password"
           id="password"
@@ -66,13 +127,14 @@
         <label for="password">Confirme sua Senha</label><br />
         <input
           type="password"
-          id="password"
-          name="password"
+          id="password-confirm"
+          name="password-confirm"
           placeholder="Confirme sua Senha"
           required
         /><br />
-      </p>
-      <button type="submit"><cadastrar-se>Cadastre-se</cadastrar-se></button>
-    </form>
+
+        <button type="submit">Cadastre-se</button>
+      </form>
+    </div>
   </body>
 </html>
