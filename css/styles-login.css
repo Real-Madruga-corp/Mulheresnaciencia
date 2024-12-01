@@ -1,48 +1,8 @@
-/* Reset padrão para garantir consistência entre navegadores */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Estilo para o corpo da página */
-body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    background-color: #f9f9f9;
-    color: #333;
-}
-
-/* Cabeçalho */
-header {
-    background: #6a1b9a;
-    /* Cor de fundo para o cabeçalho */
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
-
-header h1 {
-    margin-bottom: 10px;
-    font-size: 2.5rem;
-}
-
-nav {
-    margin: 10px 0;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-    font-size: 1rem;
-}
-
 /* Seção de Login */
 section {
     padding: 40px;
     max-width: 400px;
-    margin: 0 auto;
+    margin: 25px auto;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -95,34 +55,11 @@ form button:hover {
 /* Links de Cadastro */
 section a {
     color: #6a1b9a;
-    text-decoration: none;
     text-align: center;
     display: block;
     margin-top: 15px;
 }
 
 section a:hover {
-    text-decoration: underline;
-}
-
-/* Rodapé */
-footer {
-    background: #6a1b9a;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
-
-footer p {
-    margin-top: 10px;
-}
-
-footer a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
-}
-
-footer a:hover {
     text-decoration: underline;
 }

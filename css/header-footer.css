@@ -1,0 +1,92 @@
+/* Importação das fontes */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@300;400&display=swap');
+
+/* Reset padrão para garantir consistência entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Estilo para o corpo da página */
+body {
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header e Footer */
+header,
+footer {
+    font-family: 'Poppins', sans-serif;
+    /* Aplica Poppins ao cabeçalho e rodapé */
+    background: #6a1b9a;
+    /* Cor de fundo */
+    color: white;
+    /* Cor do texto */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Navegação */
+nav {
+    margin: 10px 0;
+    display: flex;
+    /* Ativa o uso de flexbox */
+    justify-content: center;
+    /* Centraliza os itens horizontalmente */
+}
+
+nav ul {
+    list-style: none;
+    /* Remove os marcadores de lista */
+    display: flex;
+    /* Exibe os itens da lista em linha (horizontal) */
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    /* Espaçamento entre os itens */
+    font-size: 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Conteúdo Principal (Main) */
+main {
+    font-family: 'Roboto', sans-serif;
+    /* Aplica Roboto ao conteúdo principal */
+    padding: 20px;
+}
+
+main h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+main p {
+    margin-bottom: 10px;
+}
