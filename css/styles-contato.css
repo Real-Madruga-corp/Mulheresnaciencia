@@ -18,6 +18,7 @@ section p {
 .content {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .content ul {
