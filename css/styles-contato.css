@@ -1,0 +1,132 @@
+/* Reset padrão para garantir consistência entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background: #6a1b9a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+}
+
+nav {
+    margin: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1rem;
+}
+
+/* Seção de Contato */
+section {
+    padding: 20px;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin: 20px 0;
+    color: #6a1b9a;
+    /* Cor para o título */
+}
+
+section p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+/* Formulário de Contato */
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+form button {
+    background: #6a1b9a;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #9c4d97;
+    /* Cor um pouco mais clara quando o botão é pressionado */
+}
+
+/* Links de redes sociais */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+section li a {
+    text-decoration: none;
+    color: #6a1b9a;
+    font-size: 1rem;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+    background: #6a1b9a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+/* Estilo de links */
+a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,164 @@
+/* Reset padrão para garantir consistência entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background: #6a1b9a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+}
+
+nav {
+    margin: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1rem;
+}
+
+/* Seção de Introdução ao Projeto */
+section h2 {
+    font-size: 2rem;
+    margin: 20px 0;
+    color: #6a1b9a;
+}
+
+section p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+/* Estilo para a lista de objetivos */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding: 5px 0;
+}
+
+ul li {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+/* Estilo para a seção de "Como Participar" */
+section a {
+    color: #6a1b9a;
+    font-weight: bold;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+    background: #6a1b9a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+/* Estilo de links */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Seção de conteúdo (geral para todas as páginas) */
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 2rem;
+    margin: 20px 0;
+}
+
+/* Blocos de conteúdo (geral para todas as páginas) */
+.block {
+    margin: 20px 0;
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.block img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* Ajuste específico para a página Despertar */
+.despertar-section {
+    padding: 20px;
+    background-color: #f2e7f6;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.despertar-section h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #6a1b9a;
+}
+
+.despertar-section p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.despertar-section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding: 5px 0;
+}
+
+.despertar-section ul li {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+/* Adicionando imagem de fundo para a página Despertar */
+.despertar-banner {
+    background: url('despertar-banner.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.despertar-banner h2 {
+    font-size: 2.5rem;
+}
