@@ -20,6 +20,6 @@ Este projeto se alinha aos seguintes ODS:
 
 ## Contato
 Fique à vontade para entrar em contato conosco para saber mais ou colaborar com o projeto:  
-- **Email dos colaboradores**: gabrielmoya@alunos.utfpr.edu.br / luckegg@outlook.com
-- **Linkedin dos participantes**: https://www.linkedin.com/in/gabriel-moya-amorim / https://www.linkedin.com/in/guilherme-lucke
+- **Email dos colaboradores**: gabrielmoya@alunos.utfpr.edu.br / luckegg@outlook.com / Kelson.felp@gmail.com
+- **Linkedin dos participantes**: https://www.linkedin.com/in/gabriel-moya-amorim / https://www.linkedin.com/in/guilherme-lucke / https://www.linkedin.com/in/kelsonbudin
 
